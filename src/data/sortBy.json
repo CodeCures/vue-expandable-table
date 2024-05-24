@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "default",
+        "label": "Default"
+    },
+    {
+        "id": 2,
+        "name": "name",
+        "label": "User Name"
+    },
+    {
+        "id": 3,
+        "name": "email",
+        "label": "Email Address"
+    },
+    {
+        "id": 4,
+        "name": "last_login",
+        "label": "Last Login"
+    }
+]

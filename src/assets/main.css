@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pay-due-btn {
+    @apply bg-violet-700 px-3 py-1.5 text-xs text-gray-100 tracking-wider uppercase rounded-md;
+}
+
+.tab-filter-section {
+    @apply flex px-3 py-5 bg-white sm:flex-row flex-wrap space-y-4 sm:space-y-0 items-center justify-between pb-4;
+}
+
+.btn-filter {
+    @apply inline-flex items-center border-[1px] text-gray-500 border-gray-300 focus:outline-none focus:ring-0 font-medium rounded-lg text-sm px-3 py-1.5;
+}
+
+.page-heading {
+    @apply text-xl text-violet-500 font-semibold uppercase tracking-wider;
+}
+
+.active-tab {
+    @apply underline underline-offset-[6px];
+}
+
+.tab-item {
+    @apply cursor-pointer transition-colors duration-300 ease-in-out;
+}
+
+.tab-body {
+    @apply w-full border-[1px] border-[#c6c2de] rounded-md overflow-y-hidden;
+}
+
+.dropdown-body {
+    @apply p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200;
+}
+
+.search-field {
+    @apply block px-2 py-1.5 ps-10 text-sm text-violet-600 placeholder:text-violet-400 placeholder:text-xs border-gray-300 rounded-lg w-80 bg-violet-100 focus:ring-0 focus:outline-none;
+}
+
+.app-table {
+    @apply w-full text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400;
+}
+
+.table-head {
+    @apply text-xs text-gray-700 uppercase bg-gray-50 dark:bg-violet-100 dark:text-gray-400;
+}
+
+.top-checkbox {
+    @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
+}
