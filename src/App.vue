@@ -109,8 +109,8 @@ const handleSort = (param) => sortParam.value = param;
         </tbody>
         <tfoot class="bg-violet-100">
           <tr>
-            <td colspan="4"></td>
-            <td colspan="2" class="p-4">
+            <td colspan="3"></td>
+            <td colspan="3" class="p-4">
               <div class="flex justify-between">
                 <div class="relative">
                   <button id="dropdownRightEndButton" data-dropdown-toggle="dropdownRightEnd"
