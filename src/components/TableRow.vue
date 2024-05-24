@@ -61,7 +61,7 @@ const isOpen = ref(false);
             <h4 class="font-semibold text-gray-500">${{ user.amount_paid }}</h4>
             <p>USD</p>
         </td>
-        <td class="px-4 py-2">
+        <td class="py-2">
             <TableRowMenu :row-id="index" />
         </td>
     </tr>
