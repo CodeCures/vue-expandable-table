@@ -32,11 +32,11 @@ const isOpen = ref(false);
         <td class="px-4 py-2 space-y-1.5">
             <span class="px-2 py-1 rounded-full" :class="{
                     'bg-blue-100 text-blue-800': user.status === 'active',
-                    'bg-purple-100 text-purple-800': user.status === 'inactive',
+                    'bg-purple-100 text-purple-400': user.status === 'inactive',
                 }">
                 <span class="inline-block w-2 h-2 rounded-full" :class="{
                     'bg-blue-700': user.status === 'active',
-                    'bg-purple-700': user.status === 'inactive',
+                    'bg-purple-300': user.status === 'inactive',
                 }"></span>
                 {{ user.status }}
             </span>
